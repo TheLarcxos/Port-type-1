@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e3440;
+    background-image: linear-gradient(to bottom right, #696969, #00111c);
+    margin: 0;
+    padding: 0;
+  }
+  
+  #back {
+    border: ridge 10px #696969;
+    background-image: url(https://premium.vgc.no/v2/images/6cb7cdf5-6323-4cd8-a4ed-01999eebf0c0?fit=crop&format=auto&h=676&w=1024&s=bf98f3d90facc192319f52bdbea3663e096e0eed);
+    background-size: cover;
+    padding: 140px 0px 20% 0px;
+    transition: background-image 1s ease-in-out 4s;
+    -webkit-transition: background-image 1s ease-out 4s;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 16px black;
+  }
+  
+  #back:hover {
+    background-image: url(https://i.wpimg.pl/O/644x415/d.wpimg.pl/2026489071--946939932/norwegia.jpg);
+    transition: background-image 1s ease-in-out 1s;
+    -webkit-transition: background-image 1s ease-out 1s;
+  }
+  
+  #top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 1s ease-in-out 4s;
+    -webkit-transition: all 1s ease-in-out 4s;
+  }
+  
+  #top:hover {
+    opacity: 0%;
+    transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+  }
+  
+  #tit {
+    opacity: 90%;
+    color: #696969;
+    width: 6em;
+    padding: 6px 20px;
+    border-radius: 50px;
+    background: #00111c;
+  }
+  
+  #det {
+    opacity: 90%;
+    color: #696969;
+    width: 450px;
+    margin: 10px auto;
+    padding: 6px 1px;
+    border-radius: 10px;
+    background: #00111c;
+  }
+  
+  .round {
+    object-position: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .short {
+    position: relative;
+    text-shadow: 0 0 6px black;
+    color: #696969;
+    border: outset 4px #696969;
+    padding: 20px 8px;
+    background-color: #00111c;
+    text-align: center;
+    width: 150px;
+    box-shadow: 8px 8px 10px 8px black;
+  }
+  
+  .text {
+    padding: 6px 3.7rem;
+    color: #696969;
+    font-size: 2em;
+    margin: 40px auto;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    background: #00111c;
+    border: #696969 6px inset;
+    box-shadow: 10px 10px 12px black inset;
+  }
+  
+  .img {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 0;
+    transition: 1s;
+    z-index: 1;
+  }
+  
+  #card {
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 2px 2px 4px black;
+    color: #696969;
+    background-color: #00111c;
+    padding: 1em 1em 1em 0.5em;
+    margin: 2em auto;
+    border: #696969 4px outset;
+    width: 400px;
+    height: 295px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 8px 8px 10px 8px black;
+  }
+  
+  #avatar {
+    border: 4px inset #696969;
+    margin: 0 16px 0 8px;
+    width: 180px;
+    height: 290px;
+    object-fit: cover;
+    object-position: 4% 0%;
+  }
+  
+  .ud {
+    border-bottom: double 4px #696969;
+  }
+  
+  .sp {
+    height: 30px;
+    border-bottom: double 4px #696969;
+    padding-bottom: 30px;
+  }
+  
+  .img:hover {
+    position: relative;
+    transform: scale(3.5);
+    -ms-transform: scale(3.5);
+    -webkit-transform: scale(3.5);
+    z-index: 2;
+    border-radius: 10%;
+  }
+  
+  #info {
+    align-items: center;
+    margin: 30px auto;
+    width: 500px;
+  }
+  
+  a {
+    background-color: #2e3440;
+    color: #545095;
+    font-weight: 800;
+    text-decoration: none;
+    border: #696969 outset 2px;
+    border-radius: 10%;
+    padding: 7px 10px;
+    box-shadow: 4px 4px 4px 2px black;
+    text-shadow: 2px 3px 6px black;
+  }
+  
+  a:hover {
+    background-color: #0a0847;
+  }
+  
