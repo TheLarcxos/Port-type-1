@@ -1,0 +1,36 @@
+<html>
+    <!-- Ctrl * to gray out -->
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <font-family: Cursed Timer ULiL;>
+        <link rel="stylesheet" href="score.css">
+        <script src="index.js" defer></script>
+
+        <link rel="shortcut icon" href="Images/Frame 6.png" type="image/x-icon">
+
+        <title>Scorebored</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div>
+                    <h3>HOME</h3>
+                    <h2 id="home-el">0</h2>
+                    <button onclick="home1()">1+</button>
+                    <button onclick="home2()">2+</button>
+                    <button onclick="home3()">3+</button>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <h2 id="guest-el">0</h2>
+                    <button onclick="guest1()">1+</button>
+                    <button onclick="guest2()">2+</button>
+                    <button onclick="guest3()">3+</button>
+                </div>
+            </div>
+            <button id="reset" onclick="num()">RESET
+            </button>
+        </div>
+        
+    </body>
+</html>

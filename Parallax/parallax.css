@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: rgb(122, 122, 122);
+}
+
+.sec {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.set1 {
+    background-image: url("komp.jpg");
+}
+.set2 {
+    background-image: url("kep.jpg");
+}
+.fullcover {
+    height: 100vh;
+}
+
+
+
+.tek {
+    margin: 0;
+    color: rgb(32, 32, 32);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-top: 4px solid rgb(255, 255, 255);
+    border-bottom: 5px solid #000000;
+}
