@@ -1,0 +1,22 @@
+:root {
+  --BI-0: #180022;
+  --BI-1: #1a0d05;
+  --BI-2: #351d15;
+
+  --Button-text: #6e5a21;
+  --Button-back: #2a2a2a;
+  --Button-hover: #200829;
+
+  --text-drop: #574b35;
+
+  --header: #2a2a2a;
+
+  --inBack-0: #70614c;
+  --inBack-1: #3f2f24;
+
+  --border-col: #796b45;
+  --sect-back: #36312d;
+}
+a {
+  text-shadow: 0 0 3px black;
+}

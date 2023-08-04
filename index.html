@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="root.css">
+    <link id="theme" rel="stylesheet" href="mainCSS/index.css" title="dark">
+    <link rel="alternate stylesheet" href="mainCSS/light.css" title="light">
+    <link rel="stylesheet" href="mainCSS/root.css">
+
+    <script src="index.js" defer></script>
 
     <link rel="shortcut icon" href="Frame 6.png" type="image/x-icon">
     
@@ -19,6 +22,7 @@
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
+                <button onclick="toggleTheme()">Theme</button>
             </nav>
     </header>
     <main>

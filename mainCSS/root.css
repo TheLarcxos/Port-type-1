@@ -1,0 +1,183 @@
+body {
+    z-index: -10;
+    position: relative;
+      margin: 0;
+      background-image: linear-gradient( 0deg, var(--BI-0) 0%, var(--BI-1) 30%, var(--BI-2) 60%);
+  }
+
+    button {
+        display: block;
+        justify-content: center;
+        color: var(--Button-text);
+        background-color: var(--Button-back);
+        padding: 4px 4px;
+        text-decoration: none;
+        font-weight: 600;
+        text-shadow: 0 0 3px black;
+        border: none;
+        }
+        button:hover {
+            background-color: var(--Button-hover);
+    }
+
+    a {
+        display: block;
+        justify-content: center;
+        color: var(--Button-text);
+        background-color: var(--Button-back);
+        padding: 4px 4px;
+        text-decoration: none;
+        font-weight: 600;
+        }
+      a:hover {
+          background-color: var(--Button-hover);
+    }
+  
+        
+  main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  
+  .header {
+    
+      position: fixed;
+      width: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: var(--header);
+      transition: 1s 0.2s;
+      z-index: 1;
+  }
+   .header:hover {
+      width: 110px;
+      transition: 0s 0s;
+   }
+  
+  .menu {
+      border: #696969 groove 4px;
+      height: 30px;
+  }
+  
+  .nav {
+      position: fixed;
+      background-color: #696969;
+      border: 6px groove var(--border-col);
+      color: azure;
+      text-align: center;
+      display: none;
+      height: 190px;
+      width: 110px;
+  }
+      .nav:hover {
+          display: block;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 140px;
+          width: 110px;
+          z-index: 1;
+      }
+  
+      .menu:hover + .nav{
+          z-index: 1;
+          display: block;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          transition: all 2s 2s;
+          height: 100px;
+          width: 110px;
+      }
+  
+      .EM {
+        
+    display: flex;
+    justify-content: center;
+    color: #6e5a21;
+    background-color: #2a2a2a00;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 0 0 3px black;
+      }
+  
+    .pj {
+      margin: 10px;
+      padding: 6px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: #1a1a1a solid 2px;
+      border-radius: 10%;
+    }
+  
+  
+    .prof {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+      border: 3px groove #4d3931;
+    }
+    
+    h2 {
+      size: 60px;
+      stroke: #200829;
+    }
+  
+    p {
+      margin: 28px 8px 28px 8px;
+      color: #18100e;
+      max-width: 300px;
+      font-weight: 900;
+      font-size: large;
+      text-shadow: var(--text-drop) -1px 1px 3px;
+    }
+  
+  
+    .glass {
+  
+      margin: 0;
+      width: 100%;
+      z-index: 5;
+    }
+  
+    .in {
+      position: relative;
+      size: inherit;
+      border: 4px inset var(--border-col);
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 40px;
+      background-size: cover;
+      background-image: linear-gradient( 140deg, var(--inBack-0) 0%, var(--inBack-1) 40% );
+      z-index: 0;
+    }
+  
+    .sect {
+      position: relative;
+      width: 35.0em;
+      border: 7px outset var(--border-col);
+      border-bottom: 5px solid #18151a;
+      background-color: var(--sect-back);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0;;
+      box-shadow: 8px 8px 10px 8px black;
+      z-index: 0;
+    }
+
+        footer {
+    color: #5f5340;
+    align-items: center;
+      background-color: #14061a8a;
+      margin-bottom: 0;
+      padding: 0.9em;
+      box-shadow: inset #000000 0px 10px 30px 0px;
+      -webkit-text-stroke: #463d31 0.4px;
+  }
