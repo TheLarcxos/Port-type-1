@@ -13,7 +13,7 @@ body {
         padding: 4px 4px;
         text-decoration: none;
         font-weight: 600;
-        text-shadow: 0 0 3px black;
+        text-shadow: 0 0 3px var(--Button-drop);
         border: none;
         }
         button:hover {
@@ -28,6 +28,7 @@ body {
         padding: 4px 4px;
         text-decoration: none;
         font-weight: 600;
+        text-shadow: 0 0 3px var(--Button-drop);
         }
       a:hover {
           background-color: var(--Button-hover);
@@ -131,7 +132,7 @@ body {
   
     p {
       margin: 28px 8px 28px 8px;
-      color: #18100e;
+      color: var(--text-p);
       max-width: 300px;
       font-weight: 900;
       font-size: large;
